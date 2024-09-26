@@ -1,6 +1,8 @@
 :root {
     --font-color:#FBFBFB;
     --background-color:#202124 ;
+    --color-primario: #5f6368;
+    --color-secundario: #303134;
 }
 * {
     box-sizing: border-box;
@@ -10,6 +12,7 @@
     font-family: "Roboto Condensed", system-ui;
     font-weight: 300;
     font-size: 1.6rem;
+    color: var(--font-color);
 
     text-decoration: none;
 }
@@ -20,7 +23,6 @@ html {
 
 body {
     background-color: var(--background-color) ;
-    color: var(--font-color);
 }
 
 a {
@@ -34,7 +36,7 @@ a:hover {
 header {
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
+    width: auto;
     height: 5vh;
     margin: 10px;
 }
@@ -92,5 +94,56 @@ img {
 }
 
 .busqueda {
-    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.caja-buquedas {
+    width: 586px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-primario);
+    box-shadow: none;
+    border-radius: 24px;
+}
+
+.caja-buquedas:hover {
+    border: none;
+    background-color: var(--color-secundario);
+}
+
+span {
+    width: auto;
+    padding: 0px 14px;
+}
+
+textarea {
+    width: 440px;
+    height: 27px;
+    font-size: 1.8rem;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+
+.busqueda-especial {
+    display: flex;
+    margin: auto;
+}
+
+.busqueda-especial button {
+    background-color: transparent;
+    border: none;
+}
+
+.busqueda-especial button:hover {
+    cursor: pointer;
 }

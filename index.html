@@ -28,32 +28,35 @@
         </section>
 
         <section class="busqueda">
-            <div class="caja-busqueda">
+            <div class="caja-buquedas">
                 <span>
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </span>
                 
                 <label for="buscar"></label>
-                <input type="text" id="buscar">
+                <textarea type="text" id="buscar" title="buscar"></textarea>
 
-                <label for="buscar-por-voz"></label>
-                <button id="buscar-por-voz" title="busqueda por voz">
-                    <span>
-                        <i class="fa-solid fa-microphone"></i>
-                    </span>
-                </button>
-
-                <label for="buscar-por-imagen"></label>
-                <button id="buscar-por-imagen" title="busqueda por imagen">
-                    <span>
-                        <i class="fa-solid fa-camera"></i>
-                    </span>
-                </button>
+                <div class="busqueda-especial">
+                    <label for="buscar-por-voz"></label>
+                    <button id="buscar-por-voz" title="busqueda por voz">
+                        <span>
+                            <i class="fa-solid fa-microphone"></i>
+                        </span>
+                    </button>
+    
+                    <label for="buscar-por-imagen"></label>
+                    <button id="buscar-por-imagen" title="busqueda por imagen">
+                        <span>
+                            <i class="fa-solid fa-camera"></i>
+                        </span>
+                    </button>
+                </div>
             </div>
 
-            <input type="button" value="Buscar con Google">
-
-            <input type="button" value="voy a tener suerte">
+            <div class="btnEspeciales">   
+                <input type="button" value="Buscar con Google">
+                <input type="button" value="voy a tener suerte">
+            </div>
         </section>
 
         <section class="recientes"></section>

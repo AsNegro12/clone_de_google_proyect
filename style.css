@@ -51,10 +51,12 @@ nav a{
     font-size: 1.4rem;
     font-weight: 300;
     padding-left: 15px;
+    user-select: none;
 }
 
 nav i {
     padding-left: 15px;
+    cursor: pointer;
 }
 
 nav input {
@@ -65,6 +67,7 @@ nav input {
     border-radius: 100px;
     font-weight: 400;
     color: var(--background-color);
+    cursor: pointer;
 }
 
 main {
@@ -126,6 +129,7 @@ span {
 textarea {
     width: 440px;
     height: 27px;
+    text-align: center;
     font-size: 1.8rem;
     resize: none;
     background-color: transparent;
@@ -146,4 +150,22 @@ textarea {
 
 .busqueda-especial button:hover {
     cursor: pointer;
+}
+
+.btnBusquedas {
+    padding-top: 18px;
+    height: 70px;
+}
+
+.btnBusquedas input {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }

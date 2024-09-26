@@ -7,3 +7,9 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    font-family: "Roboto Condensed", system-ui;
+    background-color: #202124 ;
+    color: #FBFBFB;
+}

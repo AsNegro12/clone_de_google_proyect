@@ -8,3 +8,5 @@ Thumbs.db
 # Ignorar archivos temporales
 *.tmp
 *.bak
+
+assets/

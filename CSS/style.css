@@ -141,3 +141,50 @@ main .main-buttons button:hover {
     color: #000001;
     cursor: pointer;
 }
+
+footer {
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer .footer-top {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 10px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+footer .footer-top span {
+    margin: 10px;
+    display: flex;
+    color: #5f6369;
+}
+
+footer ul {
+    margin: 10px;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+footer .footer-left {
+    justify-content: flex-start;
+}
+
+footer .footer-right {
+    justify-content: flex-end;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6369;
+}
